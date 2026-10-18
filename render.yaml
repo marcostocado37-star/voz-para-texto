@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: texto-em-ondas
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
